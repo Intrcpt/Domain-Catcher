@@ -1,0 +1,11 @@
+read list of domains
+for each domain in list of domains:
+    check to see if resolves to IP
+    true:
+        check to see if website exist
+        true:
+            write to new list
+        false:
+          ignore
+    false:
+        ignore
